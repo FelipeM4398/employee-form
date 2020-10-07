@@ -24,7 +24,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bulma/css/bulma.min.css",
+              "./node_modules/bulma-calendar/dist/css/bulma-calendar.min.css",
+              "./node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
             "scripts": []
           },
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "employee-form"
+    }
+  },
+  "defaultProject": "employee-form",
+  "cli": {
+    "analytics": false
+  }
 }

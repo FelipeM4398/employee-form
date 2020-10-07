@@ -1,0 +1,8 @@
+.select,
+.select select {
+  width: 100%;
+}
+
+.hero-body {
+  padding: 1.5rem !important;
+}
